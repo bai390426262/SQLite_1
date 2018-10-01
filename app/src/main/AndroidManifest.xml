@@ -19,6 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <provider
+            android:authorities="com.example.bhj.PersonContentProvider"
+            android:name="com.example.bhj.PersonContentProvider"
+            android:exported="true"/>
+        
     </application>
 
 </manifest>
